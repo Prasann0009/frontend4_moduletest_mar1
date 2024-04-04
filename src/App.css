@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.movies-list{
+    width: 50%;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid #ece8e8;
+        thead tr th{
+            border: 2px solid #ece8e8;
+            padding: 5px 7px;
+            background-color: #f0f0f0;
+            text-align: left;
+        }
+    }
+    tbody tr td{
+        border: 2px solid #ece8e8;
+        padding: 5px 7px;
+    }
+}
+.genre-container{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    h2{
+        margin: 10px;
+    }
+    button{
+        margin: 5px;
+        padding: 10px;
+        background-color: #d7d7d7;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .genre-button{
+        margin: 10px;
+    }
+}
