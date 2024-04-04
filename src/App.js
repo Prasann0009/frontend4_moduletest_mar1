@@ -8,7 +8,7 @@ const App = ()=>{
     const [selectedGenre,setSelectedGenre] = useState(null);
       
     const handleGenreSelect = (genre) => {
-        console.log(`Selected genre: ${genre}`);
+        console.log(`Filtering by: ${genre}`);
         setSelectedGenre(genre);
       };
 
