@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import MoviesList from "./MoviesList";
+import MoviesList from "./MoviesList";git 
 import GenreFilter from "./GenreFilter";
 import {movies,genres} from "./data";
 import "./App.css"
@@ -7,7 +7,7 @@ import "./App.css"
 const App = ()=>{
     const [selectedGenre,setSelectedGenre] = useState(null);
       
-    
+
 
     return (
          <div className="container">
